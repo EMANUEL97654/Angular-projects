@@ -1,0 +1,10 @@
+
+<h1>{{title}}</h1>
+ <label>Numero 1 :</label> 
+ <input type="number" placeholder="Ingrese un numero" class="form-control" [(ngModel)]="numero1">
+ <label>Numero 2 :</label>
+ <input type="number" placeholder="Ingrese otro numero" class="form-control" [(ngModel)]="numero2">
+ <button class="btn btn-primary" (click)="onResultado()">Calcular</button> <br>
+<label>Resultado</label> <br>
+   <span>{{resultado}}</span>
+
